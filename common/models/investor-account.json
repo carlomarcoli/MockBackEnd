@@ -1,0 +1,29 @@
+{
+  "name": "InvestorAccount",
+  "base": "PersistedModel",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "balance": {
+      "type": "number"
+    },
+    "investorName": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string",
+      "id": true
+    },
+    "tradingAccountid": {
+      "type": "string",
+      "id": false
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
