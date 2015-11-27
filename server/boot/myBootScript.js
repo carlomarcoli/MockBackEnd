@@ -15,13 +15,13 @@ module.exports = function(app) {
     // create project 1 and make gary the owner
 	//For this method to work the models must be linked properly
 	//NB that 'projects' is the plural of the Project model
-    guardians[0].projects.create({
-      name: "Project 1",
-      description: "This is a description of my project"
-    }, function(err, project) {
-      if (err) throw err;
+    //guardians[0].projects.create({
+      //name: "Project 1",
+      //description: "This is a description of my project"
+    //}, function(err, project) {
+      //if (err) throw err;
 
-      console.log('Created project:', project);
-    });
+    //  console.log('Created project:', project);
+    //});
   });
 };
