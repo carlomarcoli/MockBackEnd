@@ -16,7 +16,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "investorAccounts": {
+      "type": "hasOne",
+      "model": "InvestorAccount",
+      "foreignKey": ""
+    }
+  },
   "acls": [],
   "methods": {}
 }

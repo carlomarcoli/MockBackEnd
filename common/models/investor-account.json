@@ -23,7 +23,13 @@
     }
   },
   "validations": [],
-  "relations": {},
+  "relations": {
+    "tradingAccounts": {
+      "type": "hasOne",
+      "model": "TradingAccount",
+      "foreignKey": "tradingAccoundid"
+    }
+  },
   "acls": [],
   "methods": {}
 }
