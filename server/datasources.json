@@ -2,5 +2,19 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "cloudant": {
+    "host": "2a8574ad-d23b-44cb-866c-d7f9b000d8df-bluemix.cloudant.com",
+    "port": "443",
+    "name": "Cloudant NoSQL DB-8l",
+    "connector": "couch",
+    "db": "users",
+    "protocol": "https",
+    "auth": {
+      "admin": {
+        "username": "2a8574ad-d23b-44cb-866c-d7f9b000d8df-bluemix",
+        "password": "52589f38a630d80f8c2793dc9132db0f629ae117405782a372371dfd90aca3a2"
+      }
+    }
   }
 }
