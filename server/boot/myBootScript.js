@@ -1,7 +1,7 @@
 module.exports = function(app) {
   var InvestorAccount = app.models.InvestorAccount;
   //var Project = app.models.Project;
-  //var Team = app.models.Team;
+  var Team = app.models.Team;
 
   InvestorAccount.create([
     {investorNamename: 'Carlo', id: '1', tradingAccountid: '1'},
