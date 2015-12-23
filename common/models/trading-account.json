@@ -9,10 +9,6 @@
   "properties": {
     "balance": {
       "type": "number"
-    },
-    "id": {
-      "type": "string",
-      "id": true
     }
   },
   "validations": [],

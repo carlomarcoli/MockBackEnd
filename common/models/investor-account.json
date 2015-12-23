@@ -12,14 +12,6 @@
     },
     "investorName": {
       "type": "string"
-    },
-    "id": {
-      "type": "string",
-      "id": true
-    },
-    "tradingAccountid": {
-      "type": "string",
-      "id": false
     }
   },
   "validations": [],

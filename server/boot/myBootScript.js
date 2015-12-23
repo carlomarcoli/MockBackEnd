@@ -2,10 +2,13 @@ module.exports = function(app) {
   var InvestorAccount = app.models.InvestorAccount;
   //var Project = app.models.Project;
   var Team = app.models.Team;
+  var id1Val = 1
+  var id2Val = 1
+
 
   InvestorAccount.create([
-    {investorNamename: 'Carlo', id: '1', tradingAccountid: '1'},
-    {investorNamename: 'Gary', id: '2', tradingAccountid: '2'},
+    {investorNamename: 'Carlo', id: id1Val++ , tradingAccountid: id2Val++ },
+    {investorNamename: 'Gary', id: id1Val++, tradingAccountid: id2Val++ },
 
   ], function(err, InvestorAccount) {
     if (err) throw err;

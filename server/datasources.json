@@ -6,7 +6,7 @@
   "cloudant": {
     "host": "2a8574ad-d23b-44cb-866c-d7f9b000d8df-bluemix.cloudant.com",
     "port": "443",
-    "name": "Cloudant NoSQL DB-8l",
+    "name": "cloudant",
     "connector": "couch",
     "db": "users",
     "protocol": "https",
